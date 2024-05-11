@@ -1,38 +1,54 @@
 body{
-    background-image: url(rove.jpg);
-    background-size: 200%;
+    background-image: url(tu.jpg);
+    background-size: 350%;
     background-repeat: no-repeat;
     top: 300;
 }
 
 .discord{
     position: absolute;
-    left: 600px;
-    top: 89%;
-    color: rgb(179, 93, 23);
-    background-color: rgb(211, 210, 173);
+    left: 30px;
+    top:72%;
+    color: rgb(153, 23, 179);
+    background-color: rgb(199, 195, 159);
     box-shadow: 0px 20px 50px;
 }
-{
-        margin: 0;
-        padding: 0;
-        background-color: #f2f2f2;
-    }
 
-    .container {
-        max-width: 1920px;
-        width: 100%;
-        margin: 0 auto;
-        background-color: #fff;
-        padding: 20px;
+@media screen and (max-widht: 1200px) {
+    h1 {
+        font-size: 56px;
     }
+}
 
-    /* Add more specific styles for different screen sizes if needed */
-</style>
-</head>
-<body>
-<div class="container">
-    <!-- Content goes here -->
-</div>
-</body>
-</html>
+@media screen and (max-widht: 998px) {
+
+}
+    h1 {
+        font-size: 46px;
+    
+}
+
+@media screen and (max-widht: 768px) {
+
+}
+    h1 {
+        font-size: 28px;
+    
+}
+
+@media screen and (max-widht: 576px) and (max max-height: 300px) {
+
+}
+    h1 {
+        font-size: 24px;
+    
+}
+.home{
+    position: absolute;
+    top: -5px;
+    left: -60px;
+}
+.clawiatyra{
+    position: absolute;
+    left: 45%;
+    top: 70%;
